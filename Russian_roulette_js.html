@@ -1,0 +1,14 @@
+<meta charset = "UTF-8">
+<script type="text/javascript">
+	var raund = 0;
+	var result = 0;
+	do {
+		raund++;
+		if (Math.random() * 6 < 1) {
+			alert("Ooops!");
+			break;
+		}
+		vibor = parseInt(prompt("Для следующего раунда введи 1"));
+	} while (vibor == '1')
+	alert("Всего раундов: " + raund);
+</script>
